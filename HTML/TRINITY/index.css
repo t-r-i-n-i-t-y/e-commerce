@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    
+    font-family: sans-serif;
+}
+
+.menu{
+    background-color: rgb(129, 129, 129);
+    text-align: center ;
+  
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active, .menu ul li:hover{
+background: ;
+border-radius: 3px;
+}
