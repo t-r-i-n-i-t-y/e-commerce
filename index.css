@@ -29,8 +29,8 @@ body{
     color: white;
 }
 .active, .menu ul li:hover{
-background: ;
-border-radius: 3px;
+background: grey;
+border-radius: 5px;
 }
 .menu ul li a{
 margin-right: 8px;
