@@ -29,6 +29,43 @@ body{
     color: white;
 }
 .active, .menu ul li:hover{
-background: ;
-border-radius: 3px;
+    background: black;
+    border-radius: 9px;
+}
+
+.menu .fa {
+    margin-right: 7px;
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+.menu ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background-color: rgb(129, 129, 129);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu ul li:hover .sub-menu-1 ul {
+    display: block
+}
+
+.menu ul li:hover .sub-menu-1 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px double white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu ul li:hover .sub-menu-1 ul li:last-child {
+    border-bottom: none;
+}
+
+.menu ul li:hover .sub-menu-1 ul li a:hover {
+    color: rgb(186, 228, 176);
 }
