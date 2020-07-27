@@ -68,4 +68,11 @@ body{
 
 .menu ul li:hover .sub-menu-1 ul li a:hover {
     color: rgb(186, 228, 176);
+
+    background: grey;
+    border-radius: 5px;
+}
+
+.menu ul li a{
+margin-right: 8px;
 }
